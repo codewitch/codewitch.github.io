@@ -9,17 +9,9 @@ body {
 }
 
 div.col {
-	display: table-cell;
-	width: 50%;
 	vertical-align: top;
-}
-
-/* Screen width 768px and down */
-@media only screen and (max-device-width: 900px), (max-width: 700px) {
-	div.col {
-		display: block;
-		width: 100%;
-	}
+	display: block;
+	width: 100%;
 }
 
 .logo {
@@ -99,7 +91,48 @@ input:-internal-autofill-selected {
     -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 
-.klaviyo-form div.needsclick button.needsclick {
+/* MOBILE ONLY FORM */
+.klaviyo-form-StsKnV.klaviyo-form div.needsclick {
+	border-radius: 10px;
+}
+
+.klaviyo-form-StsKnV.klaviyo-form div.needsclick button.needsclick {
+	padding: 17px 0 !important;
+}
+
+.klaviyo-form-StsKnV.klaviyo-form label {
+	color: #B4BBC3;
+    position: absolute;
+    top: 31px;
+    left: 16px;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+.klaviyo-form-StsKnV.klaviyo-form div[role=listbox] div {
+	padding: 15px 0;
+	padding-left: 46px;
+}
+
+.klaviyo-form-StsKnV.klaviyo-form div[role=combobox] svg {
+	fill: #B4BBC3;
+}
+
+.klaviyo-form-StsKnV.klaviyo-form div[role=combobox] input {
+	padding-left: 31px;
+}
+
+/* DESKTOP ONLY FORM */
+.klaviyo-form-WWNbrY.klaviyo-form div.needsclick button.needsclick {
 	top: -51.5px;
 	margin-right: 1px !important;
+}
+
+/* DESKTOP CSS */
+/* Affects devices with > 900px max width and screen width > 730px */
+@media only screen and (min-device-width: 900px) and (min-width: 730px) {
+	div.col {
+		display: table-cell;
+		width: 50%;
+	}
 }
