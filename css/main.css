@@ -22,7 +22,8 @@ div.col {
 }
 
 div.details {
-	padding: 2em 0;
+	padding-top: 2em;
+	padding-bottom: 1em;
 }
 
 div.details div{
@@ -45,6 +46,10 @@ footer {
 
 footer .right{
 	float: right;
+}
+
+.klaviyo-form {
+	min-height: 196px;
 }
 
 .klaviyo-form strong {
@@ -79,7 +84,11 @@ footer .right{
 
 .klaviyo-form input.needsclick {
 	border-radius: 10px !important;
-	color:;
+}
+
+input:-internal-autofill-selected {
+    -webkit-text-fill-color: #616569 !important;
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 
 .klaviyo-form div.needsclick button.needsclick {
