@@ -51,10 +51,6 @@ footer .right{
     font-weight: 500 !important;
 }
 
-.klaviyo-form div.needsclick {
-    flex: none !important;
-}
-
 .klaviyo-form label {
 	font-weight: 400 !important;
     display: inline;
@@ -83,4 +79,8 @@ footer .right{
 
 .klaviyo-form input.needsclick {
 	border-radius: 10px !important;
+}
+
+.klaviyo-form div.needsclick button.needsclick {
+	top: -53px;
 }
