@@ -2,8 +2,10 @@ body {
 	background-color: #4083E8;
 	color: #FFFFFF;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	width: 85%;
 	max-width: 1200px;
-	margin: 15% 15% 0 15%;
+	margin: auto;
+	margin-top: 9em;
 }
 
 div.col {
@@ -12,28 +14,32 @@ div.col {
 	vertical-align: top;
 }
 
-div.details {
-	padding-top: 24px;
-}
-
-div.details div{
-	margin-bottom: 1.5em;
-	line-height: 1.5em;
-}
-
 .logo {
 	font-weight: 100;
 	font-size: 3em;
 	margin: 0;
-	width: 45%;
+	width: 43%;
+}
+
+div.details {
+	padding: 2em 0;
+}
+
+div.details div{
+	margin-bottom: 1.5em;
+	line-height: 1.6em;
+	font-size: 0.9em;
+	text-align: justify;
 }
 
 a {
 	color: inherit;
+	text-decoration: none;
 }
 
 footer {
-	margin-top: 100px;
+	margin-top: 8em;
+	margin-bottom: 3em;
 	font-size: 0.8em;
 }
 
