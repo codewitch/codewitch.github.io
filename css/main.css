@@ -2,6 +2,8 @@ body {
   background-color: #4083E8;
   color: #FFFFFF;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1200px;
+  margin: 15% 15% 0 15%;
 }
 
 h1 {
