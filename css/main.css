@@ -2,10 +2,10 @@ body {
 	background-color: #4083E8;
 	color: #FFFFFF;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	width: 85%;
-	max-width: 1200px;
+	width: 80%;
+	max-width: 1000px;
 	margin: auto;
-	margin-top: 9em;
+	margin-top: 5.5em;
 }
 
 div.col {
@@ -79,8 +79,10 @@ footer .right{
 
 .klaviyo-form input.needsclick {
 	border-radius: 10px !important;
+	color:;
 }
 
 .klaviyo-form div.needsclick button.needsclick {
-	top: -53px;
+	top: -51.5px;
+	margin-right: 1px !important;
 }
