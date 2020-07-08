@@ -50,3 +50,37 @@ footer .right{
 .klaviyo-form strong {
     font-weight: 500 !important;
 }
+
+.klaviyo-form div.needsclick {
+    flex: none !important;
+}
+
+.klaviyo-form label {
+	font-weight: 400 !important;
+    display: inline;
+    vertical-align: super;
+}
+
+.klaviyo-form label div.needsclick {
+	top: -1px !important;
+}
+
+.klaviyo-form label svg {
+	margin-right: 4px !important;
+}
+
+.klaviyo-form circle {
+	fill: transparent;
+	stroke-width: 1.5px;
+	stroke: #FFFFFF;
+	r: 8.5;
+}
+
+.klaviyo-form g#radioInner circle {
+	fill: #FFFFFF;
+	r: 4.5;
+}
+
+.klaviyo-form input.needsclick {
+	border-radius: 10px !important;
+}
