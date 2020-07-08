@@ -9,6 +9,7 @@ body {
 div.col {
 	display: table-cell;
 	width: 50%;
+	vertical-align: top;
 }
 
 div.details {
@@ -20,10 +21,11 @@ div.details div{
 	line-height: 1.5em;
 }
 
-h1 {
+.logo {
 	font-weight: 100;
 	font-size: 3em;
 	margin: 0;
+	width: 45%;
 }
 
 a {
@@ -37,4 +39,8 @@ footer {
 
 footer .right{
 	float: right;
+}
+
+.klaviyo-form strong {
+    font-weight: 500 !important;
 }
