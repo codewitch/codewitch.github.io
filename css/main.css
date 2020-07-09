@@ -5,7 +5,7 @@ body {
 	width: 80%;
 	max-width: 1000px;
 	margin: auto;
-	margin-top: 7.5em;
+	margin-top: 4em;
 }
 
 div.col {
@@ -42,10 +42,12 @@ footer {
 	margin-top: 4.5em;
 	margin-bottom: 3em;
 	font-size: 0.8em;
+	text-align: center;
 }
 
-footer .right{
-	float: right;
+footer span{
+	display: block;
+	line-height: 2em;
 }
 
 .klaviyo-form {
@@ -131,8 +133,20 @@ input:-internal-autofill-selected {
 /* DESKTOP CSS */
 /* Affects devices with > 900px max width and screen width > 730px */
 @media only screen and (min-device-width: 900px) and (min-width: 730px) {
+	body {
+		margin-top: 7.5em;
+	}
+
 	div.col {
 		display: table-cell;
 		width: 50%;
+	}
+
+	footer span {
+		text-align: left;
+	}
+
+	footer .right {
+		float: right;
 	}
 }
