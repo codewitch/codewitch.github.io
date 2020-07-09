@@ -29,7 +29,7 @@ div.details {
 div.details div{
 	margin-bottom: 1.5em;
 	line-height: 1.6em;
-	font-size: 0.9em;
+	font-size: 1em;
 	text-align: justify;
 }
 
@@ -140,6 +140,10 @@ input:-internal-autofill-selected {
 	div.col {
 		display: table-cell;
 		width: 50%;
+	}
+
+	div.details div{
+		font-size: 0.9em;
 	}
 
 	footer span {
