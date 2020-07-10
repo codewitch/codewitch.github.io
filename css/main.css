@@ -112,6 +112,11 @@ input:-internal-autofill-selected {
     z-index: 1;
 }
 
+.klaviyo-form-StsKnV.klaviyo-form div[role=listbox] {
+    border-radius: 0 0 10px 10px;
+    top: 45px;
+}
+
 .klaviyo-form-StsKnV.klaviyo-form div[role=listbox] div {
 	padding: 15px 0;
 	padding-left: 46px;
