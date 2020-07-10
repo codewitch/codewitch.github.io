@@ -1,7 +1,7 @@
 body {
 	background-color: #4083E8;
 	color: #FFFFFF;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	width: 80%;
 	max-width: 1000px;
 	margin: auto;
@@ -26,11 +26,12 @@ div.details {
 	padding-bottom: 1em;
 }
 
-div.details div{
+div.details div {
 	margin-bottom: 1.5em;
 	line-height: 1.6em;
 	font-size: 1em;
-	text-align: justify;
+	text-align: left;
+	font-weight: 300;
 }
 
 a {
@@ -142,8 +143,9 @@ input:-internal-autofill-selected {
 		width: 50%;
 	}
 
-	div.details div{
+	div.details div {
 		font-size: 0.9em;
+		text-align: justify;
 	}
 
 	footer span {
